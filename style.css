@@ -47,6 +47,13 @@
     aspect-ratio: 16 / 9;
     object-fit: cover;
     object-position: center;
+    /* make hover zoom effect look more smooth */
+    transition: 200ms transform ease-in-out;
+}
+
+/* zoom in effect when hovering over card */
+.card:hover>.card-header.card-image>img {
+    transform: scale(1.025);
 }
 
 .card-body {
