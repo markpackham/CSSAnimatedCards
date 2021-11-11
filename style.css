@@ -12,6 +12,11 @@
     overflow: hidden;
 }
 
+.card.card-shadow {
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0.2);
+}
+
 .card-header {
     font-size: 1.5rem;
     margin-bottom: .5rem;
