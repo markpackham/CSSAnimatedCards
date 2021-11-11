@@ -4,6 +4,16 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* our container */
+.card-grid {
+    display: grid;
+    /* shove as many cards as you can onto one line until it gets too small */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    /* stop cards with small amounts of text from stretching to match their siblings */
+    align-items: flex-start;
+}
+
 .card {
     background: white;
     padding: 1rem;
