@@ -4,4 +4,35 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.card {}
+.card {
+    background: white;
+    padding: 1rem;
+    border: 1px solid #777;
+    border-radius: .25rem;
+    overflow: hidden;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.card-body {
+    font-size: .9rem;
+}
+
+.card-footer {
+    margin-top: 1rem;
+}
+
+.btn {
+    background: hsl(200, 50%, 50%);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    /* have padding scale with font size so use em rather than rem */
+    /* em works better with buttons when you want to scale with font size */
+    padding: .5em .75em;
+    border-radius: .25em;
+    cursor: pointer;
+}
